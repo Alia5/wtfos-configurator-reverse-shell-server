@@ -1,0 +1,31 @@
+{
+  "name": "wtfos-configurator-reverse-shell-server",
+  "version": "0.1.0",
+  "description": "reverse shell for wtfos configurator",
+  "main": "./src/index.js",
+  "repository": "git@github.com:Alia5/wtfos-configurator-reverse-shell-server.git",
+  "author": "Peter Repukat <orly.alia5@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "eslint ./src/"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "ws": "^8.6.0",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-esnext": "^4.1.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-prefer-arrow": "^1.2.3"
+  }
+}
